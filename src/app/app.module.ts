@@ -7,6 +7,8 @@ import { HomeComponent } from './pages/home/home.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatStepperModule } from '@angular/material/stepper';
 import { MatFormFieldModule } from '@angular/material/form-field';
+import {MatMenuModule} from '@angular/material/menu';
+import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 import { MatInputModule } from '@angular/material/input';
 import { MatIconModule } from '@angular/material/icon';
 import {MatToolbarModule} from '@angular/Material/toolbar';
@@ -27,7 +29,9 @@ import {FlexLayoutModule} from '@angular/flex-layout';
     MatInputModule,
     MatIconModule,
     MatToolbarModule,
-    MatSidenavModule
+    MatSidenavModule,
+    MatMenuModule,
+    MatSlideToggleModule
   ],
   providers: [],
   bootstrap: [AppComponent]
