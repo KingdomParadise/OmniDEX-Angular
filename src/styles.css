@@ -1,4 +1,8 @@
 @import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 body{
     margin: 0%;
+    background-color: #262627;
+    color:white;
+    font-family: 'Special Elite', cursive !important;
 }

@@ -1,7 +1,7 @@
 <div class="">
   <nav class="navbar navbar-expand-lg navbar-dark bg-color px-5">
     <a class="navbar-brand" href="#">
-      <img src="assets/vision-logo.png"  width="160px" alt="">
+      <img src="assets/vision-logo.png"  width="70px" alt="">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -19,7 +19,7 @@
         </li>
         <li class="nav-item dropdown mx-3">
           <button class="btn btn-link"mat-button [matMenuTriggerFor]="menu">
-            <mat-icon>menu</mat-icon>
+            <mat-icon style="color: white;">menu</mat-icon>
           </button>
           <mat-menu #menu="matMenu" class="bg-settings text-white px-3 py-2">
             <div>
@@ -48,9 +48,36 @@
           
         </li>
         <li>
-          <button class="btn btn-primary">Launch App</button>
+          <button class="btn action-btn">Launch App</button>
         </li>
       </ul>
     </div>
   </nav>
+</div>
+
+<div class="container-fluid grid1 py-5 mt-4">
+  <section>
+    <div class="row px-5 mt-5">
+      <div class="col-md-6">
+        <h1>New Release</h1>
+        <h1 class="fsThick text-white text-uppercase"><span class="">Vision-chain exchange </span>protocol</h1>
+        <p>
+          <span class="fs21">The Vision-DEX is a cross-chain exchange allowing the swap of thousands of tokens across 8 different blockchains seamlessly</span>
+        </p>
+        <button class="btn btn-primary d-flex py-2 px-4">Start Trading
+          <mat-icon class="ms-3">arrow_right_alt</mat-icon>
+        </button>
+      </div>
+      <div class="col-md-6">
+        <div class="card card1 text-center">
+          <p><span class="fs21 mb-3">Complete multi chain <br> swap in 1 click!</span></p>
+          <div class="d-flex mt-2 mb-5">
+            <input type="text" class="form-control" id="searchBar" placeholder="Search">
+            <button class="btn btn-light ms-3"><mat-icon>star_border</mat-icon></button>
+          </div>
+          <br/><br/><br/><br/><br/><br/>
+        </div>
+      </div>
+    </div>
+  </section>
 </div>

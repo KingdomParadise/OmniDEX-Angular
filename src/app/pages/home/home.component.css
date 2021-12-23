@@ -1,8 +1,9 @@
+
 .example-spacer {
     flex: 1 1 auto;
   }
   .bg-color{
-    background-color: #061024;
+    background-color: #262627e1;
   }
   ::ng-deep.mat-menu-panel {
     max-width: none !important;
@@ -20,4 +21,32 @@
     padding: 20px 15px;
     width: 155px;
     margin:0 4px;
+  }
+  .grid1{
+    background-image: linear-gradient(#f3eaea00, #d5d5d021, #f3eaea00);
+  }
+  .highlight{
+    color:#27ecfe;
+  }
+  .fsThick{
+    font-size: 56px;
+    line-height: 1.12;
+    font-weight: 700;
+  }
+  .fs21{
+    font-size: 21px;
+  }
+  .action-btn{
+    color: white;
+    padding:4px 22px;
+    background:linear-gradient(to right, #4d4c4c, #181818);
+  }
+  .card1{
+    background-color: #393a3bce;
+    border-radius: 18px;
+    border:none;
+    padding:2rem;
+  }
+  #searchBar{
+    background-color: transparent;
   }
