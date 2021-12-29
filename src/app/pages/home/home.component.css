@@ -1,4 +1,6 @@
-
+p{
+  line-height: 1.4;
+}
 .example-spacer {
     flex: 1 1 auto;
   }
@@ -32,6 +34,7 @@
     font-size: 56px;
     line-height: 1.12;
     font-weight: 700;
+    font-family: 'Special Elite', cursive !important;
   }
   .fs21{
     font-size: 21px;
@@ -40,6 +43,16 @@
     color: white;
     padding:4px 22px;
     background:linear-gradient(to right, #4d4c4c, #181818);
+    border:1px solid #262627e1;
+  }
+  .action-btn:hover{
+    box-shadow: 0px 1px 1px #232324e1;
+  }
+  .action-btn-light{
+    color: white;
+    padding:4px 22px;
+    background:linear-gradient(to right, #7a7a7a, #555555);
+    border:1px solid #262627e1;
   }
   .card1{
     background-color: #393a3bce;
@@ -49,4 +62,33 @@
   }
   #searchBar{
     background-color: transparent;
+  }
+  #section2 img{
+    width: 100px;
+  }
+  .elongated-card{
+    background-color: #1d1d1d;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    padding:1rem 2rem;
+    flex-direction: row;
+    margin-top: 1rem;
+    margin-right: 2rem;
+  }
+  .elongated-card img{
+    width: 50px;
+    margin-right: .75rem;
+
+  }
+  .elongated-card span{
+    font-size: 28px;
+  }
+  #support .elongated-card{
+    margin-bottom:16px !important;
+    margin-right: 16px !important;
+  }
+  #support .elongated-card img{
+    width: 45px !important;
+    height: 45px !important;
   }
